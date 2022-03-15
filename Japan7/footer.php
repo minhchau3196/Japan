@@ -1,20 +1,50 @@
 <footer>
-	<div class="container">
-		<div class="row">
-			<div class="float-right col-12 pt-3 footer">
-			<div class="text-right">
-				<h5><img src="images/logo-footer.png"> 名古屋税理士会　名古屋東支部</h5>
-				<p>〒461-0025[[m]]
-名古屋市東区徳川1丁目15番30号[[m]]
-名古屋リザンビル3階[[m]]</p>
-				<p>TEL（052）935-5439　FAX（052）935-6329</p>
-				<p> (月～金　10:00～16:00)</p>
-				<p class="pt-2">個人情報の取り扱いについて</p>
+	<div class="footer">
+		<div class="container">
+			<div class="row reset-col-padding">
+				<div class="col-md-6">
+					<div class="footer-left">
+						<div class="logo">
+							<img src="images/ICON.png">
+						</div>
+						<div class="content">
+							<span>総合建設・設計・施工</span>
+							<h3 class="font-weight-bold">豊永建設 株式会社</h3>
+							<br>
+							<span>〒470-3412</span>
+							<span>愛知県知多郡南知多町豊浜字堀奥59</span>
+							<span>TEL:0569-65-0752</span>
+							<br>
+							<span>愛知県知事許可　第003481号</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="footer-right">
+						<div class="menu">
+							<ul>
+								<li class="center-vertical-nojustify"><img src="images/home.png"> 新築</li>
+								<li class="center-vertical-nojustify"><img src="images/key.png"> リノベーション・リフォーム</li>
+								<li class="center-vertical-nojustify"><img src="images/oc.png"> 施工例</li>
+							</ul>
+						</div>
+						<div class="menu">
+							<ul>
+								<li class="center-vertical-nojustify"><img src="images/home.png"> HOUEIの家づくり</li>
+								<li class="center-vertical-nojustify"><img src="images/ong.png"> 会社案内</li>
+								<li class="center-vertical-nojustify"><img src="images/email.png"> お問い合わせ</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-b text-right">
+						<img src="images/phone.png">
+					</div>
+				</div>
+			</div>
 			</div>
 		</div>
-		</div>
-	</div>
-	<div class="container footer-bottom">
-		<span>Copyright© 名古屋税理士会名古屋東支部 . All right reserved.</span>
+	</footer>
+	<div class="container footer-bottom text-center">
+		<span>Copyright © 豊永建設 株式会社 All Rights Reserved</span>
 	</div>
 </footer>

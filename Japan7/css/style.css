@@ -1,2 +1,45 @@
-body {
+img {
+  max-width: 100%; }
+
+.reset-col-padding {
+  margin-right: -10px;
+  margin-left: -10px; }
+
+.reset-col-padding > div[class*=col] {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.center-vertical {
+  justify-content: center; }
+
+.center-vertical, .center-vertical-nojustify {
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center; }
+
+.footer {
+  padding: 30px 0px;
   background: #0D4530; }
+  .footer .footer-left {
+    display: flex; }
+    .footer .footer-left .logo {
+      max-width: 25%;
+      padding-right: 15px; }
+    .footer .footer-left .content {
+      color: #fff;
+      padding-top: 20px; }
+      .footer .footer-left .content span {
+        display: block; }
+  .footer .footer-right {
+    display: flex;
+    padding-top: 20px; }
+    .footer .footer-right .menu {
+      width: 50%;
+      color: #fff; }
+      .footer .footer-right .menu li {
+        padding-bottom: 15px; }
+      .footer .footer-right .menu img {
+        max-width: 50px;
+        max-height: 25px;
+        padding-right: 8px; }

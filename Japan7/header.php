@@ -1,40 +1,39 @@
 <header>
-	<div class="container">
-		<div class="row center-vertical reset-col-padding header-container">
-			<div class="relative">
-				<div class="navbar-menu">
-					<ul class="navbar-nav">
-						<li class="nav-item "><a class="nav-link" href="#">東支部の紹介</a></li>
-						<li class="nav-item "><a class="nav-link" href="#">活動報告</a></li>
-						<li class="nav-item "><a class="nav-link" href="#">税の無料相談会</a></li>
-						<li class="nav-item "><a class="nav-link" href="#">納得！税の知識</a></li>
-						<li class="nav-item "><a class="nav-link" href="#">相談窓口</a></li>
-						<li class="nav-item "><a class="nav-link" href="#">よくある質問</a></li>
-					</ul>
-				  	<div class="header-logo">
-				  		<div class="text-center">
-				  			<img src="images/logo2.png">
-				  		</div>
-				  		<div class="text-center">
-				  			<img src="images/phone.png"> <h4 class="d-inline-block">（052）935-5439</h4>
-				  			<p> (月～金　10:00～16:00)</p>
-				  		</div>
-				  	</div>
-			  	</div>
-			 </div>
-			<div class="col-sm-3 col-1">
-				<div class="btn-toggle-mobile-menu">
-					<span class="nav-icon toggle-mobile-menu dropdown-toggle">
-						<span></span>
-					</span>
+	<div class="header-simple header-container height-menu-fixed no-pd-menu-header" style="">
+		<div class="container">
+			<div class="row clearfix">
+				<div class="col-lg-3 col-6 header-logo">
+					<a href="#" class="logo d-inline-b ">
+						<img src="images/logo01.png" width="100%" height="100%">
+					</a>				
+				</div>
+				<div class="col-lg-8 col-md-12 col-sm-12 col-12 px-0 px-lg-3 menu-cart center-vertical-nojustify height-menu-fixed">	
+					<nav class="main-nav navbar-expand-lg pull-left">
+					  	<div class="navbar-menu" style="height: auto;">
+					  		<div class="section-header-menu">
+								<ul class="navbar-nav">		 		 
+									<li class="nav-item">
+										<a class="nav-link" href="#">Trang Chủ</a>
+									</li> 		 
+									<li class="nav-item">
+										<a class="nav-link" href="#">Trang Chủ</a>
+									</li>
+								</ul>
+							</div>
+					  	</div>
+					</nav>
+				</div>
+				<div class="col-lg-1 col-6 header-logo">
+					<div class="btn-toggle-mobile-menu center-vertical">
+						<span class="nav-icon toggle-mobile-menu">
+							<span></span>
+						</span>
+						<span class="nav-icon toggle-mobile-menu title-menu">
+							<span> MENU </span>
+						</span>
+					</div>				
 				</div>
 			</div>
-			<div class="col-sm-6 col-8 text-center">
-				<span class="title">名古屋税理士会　名古屋東支部</span>
-			</div>
-			<div class="col-sm-3 col-3">
-				<img src="images/logo.jpg">
-			</div>
 		</div>
-	</div>		
+	</div>	
 </header>
