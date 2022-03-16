@@ -1,6 +1,9 @@
 img{
 	max-width: 100%;
 }
+a{
+	text-decoration: none;
+}
 .reset-col-padding {
     margin-right: -10px;
     margin-left: -10px;
@@ -17,6 +20,9 @@ img{
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
+}
+.content222{
+	height: 500px;
 }
 .footer{
 	padding: 30px 0px;
@@ -42,10 +48,105 @@ img{
 		padding-top: 20px;
 
 		.menu{
+			a{
+				color: #fff;
+			}
 			width: 50%;
-			color: #fff;
 			li{padding-bottom: 15px;}
 			img{max-width: 50px; max-height: 25px; padding-right: 8px;}
 		}
+	}
+}
+header{
+	.header-simple{
+		.main-nav{
+			img{
+				max-width: 25px;
+				margin-right: 10px;
+			}
+			li a{
+				color: #000;
+			}
+		}
+		.toggle-mobile-menu{
+			cursor: pointer;
+			width: 20px;
+		}
+		.toggle-mobile-menu:first-child span, 
+		.toggle-mobile-menu:first-child:after, 
+		.toggle-mobile-menu:first-child:before{
+			background-color: #000;
+		    content: "";
+		    display: block;
+		    height: 2px;
+		    margin: 4px 0;
+		    transition: all .2s ease-in-out;
+		}
+	}
+	.menu-show{
+		display: none;
+	    position: absolute;
+	    width: 100%;
+	    z-index: 11;
+	    top: 0;
+		background-image: url(../images/bg.jpg);
+		background-size: cover; 
+		.border-bottom-light{
+			border-bottom: 2px solid #fff;
+		}
+		.text-vertical-lr{
+			padding-top: 25px;
+			padding-bottom: 25px;
+			writing-mode: vertical-lr;
+			color: #fff;
+		}
+		.logo img{
+			max-width: 200px;
+		}
+		ul li{
+			img{
+				max-width: 50px;
+			    max-height: 25px;
+			    padding-right: 8px;
+			}
+		}
+		.list-menu-show li{
+			padding: 10px 0;
+			a{
+				color: #fff;
+			}
+		}
+
+		.menu-bottom{
+			padding: 30px 0;
+			color: #fff;
+			background: #0afe0a;
+		}
+
+		.toggle-mobile-menu:first-child:before{
+			transform: translateY(7px) rotate(135deg);
+		}
+		.toggle-mobile-menu:first-child span {
+		    transform: scale(0);
+		}
+		.toggle-mobile-menu:first-child:after {
+		    transform: translateY(-5px) rotate(-135deg);
+		}
+	}
+	.menu-show::before{
+	  background-color: #00800082;
+	  content: '';
+	  display: block;
+	  height: 100%;
+	  position: absolute;
+	  width: 100%;
+	}
+}
+
+@media (min-width: 768px){
+	.logo-menu-bottom img{
+		position: absolute;
+		bottom: 0;
+		right: 50px;
 	}
 }

@@ -22,7 +22,9 @@
 
 		<?php include("header.php"); ?>
 
-		hihi
+		<div class="content222">
+			hihi
+		</div>
 
 		<?php include("footer.php"); ?>
 

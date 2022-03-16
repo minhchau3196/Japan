@@ -22,17 +22,17 @@
 				<div class="col-md-6">
 					<div class="footer-right">
 						<div class="menu">
-							<ul>
-								<li class="center-vertical-nojustify"><img src="images/home.png"> 新築</li>
-								<li class="center-vertical-nojustify"><img src="images/key.png"> リノベーション・リフォーム</li>
-								<li class="center-vertical-nojustify"><img src="images/oc.png"> 施工例</li>
+							<ul class="pl-2">
+								<li class="center-vertical-nojustify"><a href="#"><img src="images/home.png"> 新築</a></li>
+								<li class="center-vertical-nojustify"><a href="#"><img src="images/key.png"> リノベーション・リフォーム</a></li>
+								<li class="center-vertical-nojustify"><a href="#"><img src="images/oc.png"> 施工例</a></li>
 							</ul>
 						</div>
 						<div class="menu">
-							<ul>
-								<li class="center-vertical-nojustify"><img src="images/home.png"> HOUEIの家づくり</li>
-								<li class="center-vertical-nojustify"><img src="images/ong.png"> 会社案内</li>
-								<li class="center-vertical-nojustify"><img src="images/email.png"> お問い合わせ</li>
+							<ul class="pl-2">
+								<li class="center-vertical-nojustify"><a href="#"><img src="images/home.png"> HOUEIの家づくり</a></li>
+								<li class="center-vertical-nojustify"><a href="#"><img src="images/ong.png"> 会社案内</a></li>
+								<li class="center-vertical-nojustify"><a href="#"><img src="images/email.png"> お問い合わせ</a></li>
 							</ul>
 						</div>
 					</div>
@@ -44,7 +44,7 @@
 			</div>
 		</div>
 	</footer>
-	<div class="container footer-bottom text-center">
+	<div class="container footer-bottom text-center pt-3 pb-3">
 		<span>Copyright © 豊永建設 株式会社 All Rights Reserved</span>
 	</div>
 </footer>
