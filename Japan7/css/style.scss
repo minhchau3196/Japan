@@ -150,3 +150,18 @@ header{
 		right: 50px;
 	}
 }
+@media (max-width: 768px){
+	header{
+		.menu-responsive{
+			display: none;
+		}
+	}
+	.footer{
+		.footer-left, .footer-right{
+			display: block;
+			.menu{
+				width: 100%;
+			}
+		} 
+	} 
+}

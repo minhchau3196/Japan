@@ -7,7 +7,7 @@
 						<img src="images/logo01.png" width="100%">
 					</a>				
 				</div>
-				<div class="col-lg-6 px-0 px-lg-3 center-vertical-nojustify justify-content-end">
+				<div class="col-lg-6 menu-responsive center-vertical-nojustify justify-content-end">
 					<nav class="main-nav navbar-expand-lg pull-left">
 						<ul class="navbar-nav">		 		 
 							<li class="nav-item pr-2">
@@ -22,7 +22,7 @@
 						</ul>
 					</nav>
 				</div>
-				<div class="col-lg-2 px-0 px-lg-3 center-vertical-nojustify justify-content-center">
+				<div class="col-lg-2 menu-responsive center-vertical-nojustify justify-content-center">
 					<nav class="main-nav navbar-expand-lg pull-left">
 						<ul class="navbar-nav">		 		 
 							<li class="nav-item pr-2">
@@ -31,7 +31,7 @@
 						</ul>
 					</nav>
 				</div>
-				<div class="col-lg-1 col-6 center-vertical-nojustify">
+				<div class="col-lg-1 col-6 center-vertical-nojustify justify-content-end">
 					<div class="btn-toggle-mobile-menu center-vertical">
 						<span class="nav-icon toggle-mobile-menu">
 							<span></span>
@@ -43,18 +43,18 @@
 		<div class="menu-show">
 			<div class="container">
 				<div class="row reset-col-padding">
-					<div class="col-md-2 text-vertical-lr">
+					<div class="col-2 text-vertical-lr">
 						<span class="pt-5">木のぬくもりを生かす住まい</span>
 						<h3 class="m-0 font-weight-bold">笑顔をつくる家づくり</h3>
 						<span class="pt-3">経験豊かな職人がつくる</span>
 					</div>
-					<div class="col-md-10 border-bottom-light">
+					<div class="col-10 border-bottom-light">
 						<div class="row">
 							<div class="col-10 text-right logo pt-4 pb-5">
 								<img src="images/logo3.png">
 							</div>
-							<div class="col-2 pt-3 justify-content-center">
-								<div class="btn-toggle-mobile-menu center-vertical">
+							<div class="col-2 pt-3 justify-content-center justify-content-end">
+								<div class="btn-toggle-mobile-menu center-vertical justify-content-end">
 									<span class="nav-icon toggle-mobile-menu">
 										<span></span>
 									</span>
@@ -85,12 +85,12 @@
 						</div>
 						<div class="col-md-10">
 							<div class="row reset-col-padding">
-								<div class="col-md-7">
+								<div class="col-md-7 col-12">
 									<span>総合建設・設計・施工</span>
 									<h2>豊永建設 株式会社</h2>
 									<span>〒470-3412　愛知県知多郡南知多町豊浜字堀奥59</span>
 								</div>
-								<div class="col-md-5 text-right logo-menu-bottom">
+								<div class="col-md-5 col-12 pt-3 text-right logo-menu-bottom">
 									<img src="images/phone.png">
 								</div>
 							</div>

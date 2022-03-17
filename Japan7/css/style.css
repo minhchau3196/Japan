@@ -116,3 +116,11 @@ header .menu-show::before {
     position: absolute;
     bottom: 0;
     right: 50px; } }
+@media (max-width: 768px) {
+  header .menu-responsive {
+    display: none; }
+
+  .footer .footer-left, .footer .footer-right {
+    display: block; }
+    .footer .footer-left .menu, .footer .footer-right .menu {
+      width: 100%; } }
