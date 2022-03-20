@@ -4,6 +4,9 @@ img {
 a {
   text-decoration: none; }
 
+.lh-10 {
+  line-height: 10px; }
+
 .reset-col-padding {
   margin-right: -10px;
   margin-left: -10px; }
@@ -110,6 +113,34 @@ header .menu-show::before {
   height: 100%;
   position: absolute;
   width: 100%; }
+
+.page-7 .block-1 {
+  padding: 50px 0; }
+  .page-7 .block-1 .block-1-1 {
+    padding: 30px;
+    background-image: url(../images/bg.jpg); }
+    .page-7 .block-1 .block-1-1 .b-border {
+      border: 2px solid #fff;
+      padding: 30px; }
+
+.page-8 .block-13 .content input, .page-8 .block-13 .content textarea {
+  background: #DCDDDF;
+  border: 1px solid #A4A6A9;
+  padding: 4px 5px; }
+.page-8 .block-13 .content input.w-30 {
+  width: 30%; }
+.page-8 .block-13 .content .inout {
+  padding: 10px 0; }
+.page-8 .block-13 .content .inout-child {
+  padding: 2px 0; }
+.page-8 .block-13 .content .inout-child .title {
+  padding-left: 15px; }
+
+.block-11-1 {
+  padding: 50px 0; }
+  .block-11-1 .bg-11-1 {
+    background: #FEE5C8;
+    padding: 20px 40px; }
 
 @media (min-width: 768px) {
   .logo-menu-bottom img {
