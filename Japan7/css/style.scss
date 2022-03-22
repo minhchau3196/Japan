@@ -144,6 +144,11 @@ header{
 }
 
 .page-1{
+	.header-simple{
+		position: absolute;
+		z-index: 11;
+		width: 100%
+	}
 	.b-content{
 	    writing-mode: vertical-lr;
 	    color: #000;
@@ -246,6 +251,9 @@ header{
 	}
 }
 @media (max-width: 768px){
+	.page-1 .header-simple{
+		position: inherit;
+	}
 	header{
 		.menu-responsive{
 			display: none;

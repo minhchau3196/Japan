@@ -2,12 +2,12 @@
 	<div class="header-simple header-container">
 		<div class="container pt-2 pb-2">
 			<div class="row reset-col-padding">
-				<div class="col-lg-3 col-6 header-logo">
+				<div class="col-md-3 col-6 header-logo">
 					<a href="#" class="logo d-inline-b ">
 						<img src="images/logo01.png" width="100%">
 					</a>				
 				</div>
-				<div class="col-lg-6 menu-responsive center-vertical-nojustify justify-content-end">
+				<div class="col-md-6 menu-responsive center-vertical-nojustify justify-content-end">
 					<nav class="main-nav navbar-expand-lg pull-left">
 						<ul class="navbar-nav">		 		 
 							<li class="nav-item pr-2">
@@ -22,7 +22,7 @@
 						</ul>
 					</nav>
 				</div>
-				<div class="col-lg-2 menu-responsive center-vertical-nojustify justify-content-center">
+				<div class="col-md-2 menu-responsive center-vertical-nojustify justify-content-center">
 					<nav class="main-nav navbar-expand-lg pull-left">
 						<ul class="navbar-nav">		 		 
 							<li class="nav-item pr-2">
@@ -31,7 +31,7 @@
 						</ul>
 					</nav>
 				</div>
-				<div class="col-lg-1 col-6 center-vertical-nojustify justify-content-end">
+				<div class="col-md-1 col-6 center-vertical-nojustify justify-content-end">
 					<div class="btn-toggle-mobile-menu center-vertical">
 						<span class="nav-icon toggle-mobile-menu">
 							<span></span>

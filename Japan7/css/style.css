@@ -111,6 +111,10 @@ header .menu-show::before {
   position: absolute;
   width: 100%; }
 
+.page-1 .header-simple {
+  position: absolute;
+  z-index: 11;
+  width: 100%; }
 .page-1 .b-content {
   writing-mode: vertical-lr;
   color: #000;
@@ -190,6 +194,9 @@ header .menu-show::before {
     bottom: 0;
     right: 50px; } }
 @media (max-width: 768px) {
+  .page-1 .header-simple {
+    position: inherit; }
+
   header .menu-responsive {
     display: none; }
 
